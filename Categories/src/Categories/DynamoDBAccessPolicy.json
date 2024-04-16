@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:DescribeTable",
+                "dynamodb:Scan"
+            ],
+            "Resource": "arn:aws:dynamodb:us-east-1:877267235126:table/csfinal-products-240404-Category"
+        }
+    ]
+}
